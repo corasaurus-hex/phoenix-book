@@ -13,7 +13,7 @@ defmodule Rumbl.Video do
     timestamps()
   end
 
-  @required_fields [:url, :title, :description, :category_id]
+  @required_fields [:url, :title, :description]
 
   @doc """
   Builds a changeset based on the `struct` and `params`.
